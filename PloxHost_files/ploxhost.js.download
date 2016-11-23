@@ -1,0 +1,64 @@
+/* global $ wow WOW */
+  $('#plexHosting-quotes').owlCarousel({
+    loop: true,
+    center: true,
+    items: 3,
+    margin: 0,
+    autoplay: true,
+    dots: true,
+    autoplayTimeout: 8500,
+    smartSpeed: 450,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      1170: {
+        items: 3
+      }
+    }
+  });
+
+
+$('.counter').each(function() {
+  var $this = $(this),
+    countTo = $this.attr('data-count');
+
+  $({
+    countNum: $this.text()
+  }).animate({
+      countNum: countTo
+    },
+
+    {
+
+      duration: 2000,
+      easing: 'easeInOutQuad',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+        //alert('finished');
+      }
+
+    });
+
+
+
+});
+
+/* Wow Popup */
+var fixed = false;
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+  }
+);
+wow.init();

@@ -1,0 +1,692 @@
+/*
+
+	PloxHost.com
+	Designed by thelightdev.com
+	Built for PloxHost, all rights reserved, (C) 2016
+	
+*/
+
+
+/* BODY */
+
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+    font-size:100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+}
+
+/* Top Navbar */
+.plexNavTop {
+    background-color: #f0f0f0;
+}
+
+.plexNavTop > ul {
+    display: inline-block;
+}
+
+.plexNavTopContent > li, .plexNavTopSocial > li {
+    display: inline-block;
+}
+
+.plexNavTopContent, .plexNavTopSocial {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.plexNavTopContent {
+    float: right;
+}
+
+.plexNavTopSocial > li {background-color: rgba(227, 227, 227, 0.45);padding: 10px 20px;font-size: 1.3rem;}
+
+.plexNavTopContent > li > a >p {
+    color: rgba(18, 13, 13, 0.65);
+    margin: 0;
+    font-size: .8rem;
+    font-family: Lato;
+}
+
+.plexNavTopContent > li {
+    padding: 15px;
+}
+
+/* Middle Navbar */
+.navbar-default {
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;  }
+
+.navbar-default .navbar-toggle {
+    border: none;
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    width: 30px;
+    border-radius: 0;
+    height: 4px;
+    background-color: rgba(28, 28, 28, 0.63);
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+.open>.dropdown-menu {
+    border: none;
+    padding: 5px;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #a2e4a2;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.2rem;
+    color: rgba(23, 19, 19, 0.75)!important;
+}
+
+.navLogo {
+    display: inline-block;
+    padding: 0;
+    width: 60%;
+}
+
+.navbar-brand {padding: 15px;}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2124;
+    padding: 20px 0;
+}
+
+#footerImage {
+    width: 70%;
+}
+
+.footerSection > li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.72);
+    padding: 5px 0;
+}
+
+#footerTitle {
+    font-size: 1.8rem;
+    color: #d0d0d0;
+    text-align: left;
+    font-family: Raleway;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footerSection > ul > a > li {
+    color: #b2b2b2;
+    list-style: none;
+    text-align: left;
+    padding: 2px 0;
+}
+
+/* Home Page */
+#homeHeader {
+    background-color: #6EBD62;
+    background: linear-gradient(rgba(110, 189, 98, 0.49),rgba(110, 189, 98, 0.52)),url(https://ferngullygraphics.com/wp-content/uploads/2016/05/bg.jpg) no-repeat center center;
+}
+
+#homeHeaderItem {
+    margin: 10% 0;
+}
+
+#homeHeaderItem > p:nth-child(1) {
+    color: #1a1717;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+#homeHeaderItem p:nth-child(2) {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#homeHeaderItem p {
+    text-align: left;
+    margin: 0;
+}
+
+#homeHeaderImage > img {margin-top: 10%;width: 75%;}
+
+#homeDomain p {font-size: 1.5rem;font-family: Raleway;display: inline-block;padding-top: 5px;float: left;margin:0;}
+
+#homeDomain input, button {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+}
+
+#domainMain {
+    float: right;
+}
+
+#homeDomain {
+    padding: 15px;
+    color: white;
+    background-color: #68ac5a;
+}
+
+#domainInput {
+    color: rgba(50, 50, 50, 0.72);
+    background-color: rgba(110, 189, 98, 0.54);
+    box-shadow: none!important;
+}
+
+#domainSearch {
+    background-color: #69c75a;
+}
+
+.plexNavTopSocial {
+    float: left;
+}
+
+/* Section 1 - Home */
+#ploxHomeChoose > p:nth-child(1) {
+    font-size: 2.3rem;
+    font-family: Lato;
+    font-weight: 100;
+}
+
+#ploxHomeChoose {
+    padding: 30px;
+    background-color: rgba(226, 226, 226, 0.28);
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#ploxHomeChoose p:first-of-type > span {
+    font-weight: 900;
+}
+
+#ploxHomeChoose > p:nth-child(2) {
+    font-size: 1rem;
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.ploxChooseItem > p {padding: 20px;margin: 0;}
+
+.ploxChooseItem > p:first-of-type {
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 0;
+    letter-spacing: .3px;
+}
+
+.ploxChooseItem > a {
+    color: #323232;
+    border: 1px solid #616161;
+    padding: 10px 20px;
+}
+
+.ploxChooseItem > img {
+    width: 80px;
+}
+
+.ploxChooseItem {
+    padding: 50px 10px;
+}
+
+.ploxOfferItem > ul > li {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.ploxOfferImg > img {
+    width: 30%;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.ploxOfferItem {
+    background-color: rgba(232, 232, 232, 0.48);
+}
+
+.ploxOfferItem > ul {
+    padding: 0;
+}
+
+.ploxOfferPrice {
+    background-color: #8a8a8a;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+.ploxOfferPrice > span {
+    font-size: 1rem;
+    font-family: Lato;
+    color: #242424;
+}
+
+.ploxOfferTitle {
+    background-color: #f4f4f4;
+    color: #3c3c3c;
+    font-size: 1.4rem;
+    padding: 15px!important;
+    font-family: Lato;
+}
+
+.ploxOfferList-o {
+    background-color: #e8e8e8;
+}
+
+
+/* Hosting Packages - Hosting Pages */
+
+.ploxHosting-item:hover > .ploxHosting-name {
+    background: #91ffa9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #91ffa9 , #4efc65); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #91ffa9 , #50ff67); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ploxHosting-button>a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.ploxHosting-item {
+    text-align: center;
+    margin: 50px auto;
+    transition: all .4s ease-in-out;
+}
+
+.ploxHosting-list>li {
+    list-style-type: none;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+.ploxHosting-list {
+    margin: 0 auto;
+    background-color: rgba(236, 236, 236, 0.64);
+    text-align: center;
+    padding: 0;
+}
+
+.ploxHosting-price {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0px 5px 3px rgba(29, 29, 29, 0.75);
+    margin: 0;
+    font-size: 2rem;
+    transition: all .4s ease-in-out;
+}
+
+.ploxHosting-price>img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20%;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ploxHosting-name {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-family: Raleway;
+    background-color: rgb(149, 235, 154);
+    font-weight: 900;
+}
+
+.ploxHosting-listO {
+    background-color: rgba(0, 0, 0, .075);
+}
+
+.ploxHosting-price:hover {
+    box-shadow: none;
+}
+
+.ploxHosting-date {
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+    background-color: #87e479;
+    font-weight: 100;
+}
+
+.ploxHosting-button>a {
+    color: white;
+    background-color: rgba(51, 51, 51, 0.85);
+    padding: 10px 25px;
+}
+
+.ploxHosting-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ploxHosting-desc>p {
+    font-size: 1.2rem;
+    font-family: Raleway;
+    margin: 0;
+}
+
+.ploxHosting-img>img {
+    width: 70%;
+}
+
+.ploxHosting-sec2 {
+    margin: 50px 0;
+    background-color: rgba(187, 187, 187, 0.1);
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.ploxHosting-buycraft {
+    min-height: 180px;
+    background: url(https://www.plox.host/images/hero.jpg) no-repeat center center;
+}
+
+.ploxHosting-bImg>a>img {
+    padding: 100px 0;
+}
+
+.ploxHosting-bText>a>p {
+    padding: 80px;
+    font-size: 2.2rem;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+/*-----------
+    About
+-----------*/
+.ploxAboutImage1 > img {
+    width: 60%;
+}
+
+#ploxAboutSec1 {margin-top: 50px;}
+
+#ploxAboutSec2 {
+    margin-top: 100px;
+}
+
+.ploxAboutDesc > p:first-of-type {
+    font-size: 1.8rem;
+    text-align: left;
+    color: #49A32B;
+    margin: 0;
+    font-weight: 900;
+}
+
+.ploxAboutDesc > p:nth-child(2) {
+    text-align: left;
+    font-size: .9rem;
+}
+
+.panel-default > .panel-heading {
+    background-color: #6EBD62;
+    border-radius: 0;
+    color: white;
+}
+
+.panel.panel-default {border-radius: 0;box-shadow: 0 1px 1px #ababab;}
+
+.ploxTeamSocial > li {margin: 0 auto;width: 32.2%;padding: 5px 0;list-style: none;text-align: center;display: inline-block;transition: all .4s ease-in-out;}
+
+.ploxTeamItem {
+    margin: 20px 0;
+}
+
+.ploxTeamSocial {text-align: center;border-radius: 25px;overflow: hidden;padding: 0;margin: 0;background: #efefef;}
+
+.ploxTeamSocial > li > a {
+    color: #383A3F;
+    font-size: 1.2rem;
+}
+
+.ploxTeamSocial > li:hover {
+    background-color: rgba(211, 211, 211, 0.86);
+}
+
+.ploxTeamItem > img {
+    width: 100%;
+}
+
+.ploxTeamItem > p:nth-child(3) {
+    font-size: .9rem;
+    font-family: Lato;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.ploxTeamItem > p:nth-child(2) {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 10px;
+    font-family: Lato;
+}
+
+.ploxTeamItem > p:nth-child(2) > span {
+    font-size: .9rem;
+    color: green;
+    font-style: italic;
+}
+/* All Code */
+
+/* Header - All Pages */
+.ploxHeading {
+    padding: 35px 0;
+    background-image: linear-gradient(rgba(17, 17, 15, 0.92), rgba(17, 17, 15, 0.92)), url(../img/headingBackground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ploxHeadingText {
+    text-align: left;
+}
+
+.ploxHeadingText > p {margin: 0;}
+
+.ploxHeadingText > p:first-of-type {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 100;
+}
+
+.ploxHeadingText > p:nth-child(2) {
+    color: #cecece;
+}
+
+.ploxHeadingLink > p {
+    margin: 0;
+    color: white;
+    display: inline-block;
+}
+
+.ploxHeadingLink > a {
+    color: #6EBD62;
+}
+
+.ploxHeadingLink {
+    line-height: 85px;
+    text-align: right;
+    font-weight: 100;
+}
+
+
+
+.plex-Head > p {
+    font-size: 2.3rem;
+    font-family: Lato;
+    font-weight: 100;
+}
+
+.plex-Head > p > span {
+    font-weight: 900;
+    padding: 5px;
+}
+
+.plex-Head {
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.ploxOfferButton > a {
+    color: white;
+    background-color: #282727;
+    font-family: Lato;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 10px 25px!important;
+    position: relative;
+    transition: all .25s ease-in-out;
+}
+
+.ploxOfferButton > a:hover {
+    background-color: #141312;
+}
+
+.ploxOfferButton > a:hover {
+    color: rgba(255, 255, 255, 0.81);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24);
+}
+
+.ploxOfferButton > a:after {
+    content: "";
+    width: 40%;
+    position: absolute;
+    height: 200%;
+    background-color: dodgerblue;
+    background: rgba(255, 255, 255, 0.14);
+    right: 0;
+    top: 0;
+    color: white;
+    margin: -5px 0 0 -5px;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform-origin: 0 0;
+    -moz-transform: rotate(-20deg);
+    -ms-transform-origin: 0 0;
+    -ms-transform: rotate(-20deg);
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+    transition: width .50s ease-in-out;
+}
+
+.ploxOfferButton > a:hover:after {
+    width: 60%;
+}
+
+/* Home Page - Quote */
+
+.shadow-effect {
+    background: rgba(255, 255, 255, 0.82);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 20px 0px rgba(222, 222, 222, 0.27);
+}
+
+#ploxHosting-quotes .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+
+.testimonial-name {
+    display: table;
+    width: 100%;
+    background: #6EBD62;
+    padding: 9px 35px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+
+#ploxHosting-quotes .item {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 80px;
+    opacity: .2;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#ploxHosting-quotes .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+    margin: 0 auto 17px;
+}
+
+#ploxHosting-quotes.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+#ploxHosting-quotes.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: #28CB75;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+
+#ploxHosting-quotes.owl-carousel.owl-theme .owl-dots .owl-dot span {
+    background: #C4C4CC;
+    display: block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
+}
+
+.testimonial-name>p {
+    margin: 0;
+    font-size: 1rem;
+    color: rgb(241, 241, 241);
+}
+
+.testimonials {
+    background-color: rgba(230, 230, 230, 0.31);
+    margin: 40px 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
